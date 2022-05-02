@@ -1,0 +1,15 @@
+.pet-card-list-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  grid-auto-rows: 200px;
+  margin: 20px;
+}
+.pet-card-list-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}

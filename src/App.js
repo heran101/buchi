@@ -1,14 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header";
+import PetList from "./Components/PetList/PetList";
 
 function App() {
   return (
-    <div>
+    <>
       {/* Header */}
       <Header />
       {/* tabs */}
-    </div>
+      <PetList />
+    </>
   );
 }
 
