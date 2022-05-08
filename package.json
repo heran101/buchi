@@ -12,6 +12,7 @@
     "ol-ext": "^3.2.22",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-redux": "^8.0.1",
     "react-scripts": "5.0.0",
     "redux": "^4.1.2",
     "web-vitals": "^2.1.4"
